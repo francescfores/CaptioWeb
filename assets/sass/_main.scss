@@ -1,0 +1,314 @@
+@import "new_variables";
+
+body {
+ margin: 0px;
+ padding: 0px;
+}
+
+h1{
+    color : $color-blue;
+    margin: $margin-1;
+}
+/*==================================================
+=                    Navbar                        =
+==================================================*/
+.bg {
+  background-color: aquamarine; }
+
+nav .navbar-brand {
+  height: 85px; }
+
+.navbar {
+  background-color: #289BC1;
+  margin-bottom: 0px; }
+
+.p1 {
+  padding: 0 !important; }
+
+.navbar:hover {
+  /*background-color: #068AB6;*/ }
+
+.nabvar_header {
+  font-size: 13px;
+  height: 40px;
+  padding-top: 10px; }
+
+.nabvar_header ul {
+  list-style: none;
+  padding: 0px; }
+
+.nabvar_header ul li {
+  display: inline-block;
+  /*margin-left: 6px;*/
+  margin-left: 12px; }
+
+.nabvar_header ul li a {
+  color: #999;
+  text-decoration: none; }
+
+.navbar-brand-style {
+  /* height: 50px;*/
+  padding: 24px 0;
+  font-size: 18px;
+  line-height: 20px; }
+
+.nabvar_header-style-right ul li a {
+  color: #f9ba14;
+  font-weight: 600;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  transition: all 300ms ease; }
+
+.nabvar_header-style-right {
+  float: right;
+  padding-right: 0px !important; }
+
+.nabvar_header-style-right-dropdown {
+  background-image: url("http://cdn2.hubspot.net/hub/260057/file-2620342152-png/Layout-v2/library/img/menu-superior/fletxa-idiomes.png?t=1447143896409");
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-right: 20px;
+  margin-left: 20px !important;
+  border-left: 1px solid #ccc;
+  padding-left: 12px;
+  color: #999; }
+
+.nabvar_header-style-right-dropdown a {
+  color: #999 !important;
+  font-weight: 100 !important; }
+
+.navbar-nav {
+  margin: 0px -15px; }
+
+
+
+.navbar-toggle {
+  margin-right: 5px; }
+
+.navbar-default .navbar-toggle {
+  border-color: transparent; }
+
+.navbar-default {
+  border-color: transparent;
+  border: 0px; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #888; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+  height: 4px;
+  width: 30px; }
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: transparent; }
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #068AB9; }
+
+.header-container .header-bottom .hs-menu-wrapper > ul > li.hs-item-has-children > a {
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-image: url("//cdn2.hubspot.net/hub/260057/file-2630980954-png/Layout-v2/library/img/menu-principal/main-menu-arrow.png?t=1467803613202"); }
+
+.navbar-collapse ul li a {
+  padding-left: 25px;
+  padding-right: 30px;
+  padding-top: 33px;
+  padding-bottom: 32px; }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: none; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff; }
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #068AB9;
+  color: #fff; }
+
+.dropdown-menu {
+  z-index: 1;
+  float: right;
+  padding: 0px 0px !important;
+  border-radius: 0px;
+  margin-top: 3px !important;
+  border: 0px !important;
+  box-shadow: 0 0px 0px !important; }
+
+.dropdown-menu a {
+  padding: 23px 0px !important;
+  padding: 23px !important;
+  color: #a4a4a4 !important;
+  font-size: 14px !important;
+  text-align: left !important;
+  border-top: 1px solid #e5e5e5 !important; }
+
+.dropdown-menu ul > li:first-child {
+  border-top: 0px solid #e5e5e5 !important; }
+
+.item1 {
+  border-bottom: 1px solid #e5e5e5 !important; }
+
+.arrow_down {
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-image: url("//cdn2.hubspot.net/hub/260057/file-2630980954-png/Layout-v2/library/img/menu-principal/main-menu-arrow.png?t=1467803613202"); }
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .logo {
+    padding-top: 10px;
+    margin-left: 70px; } 
+    .navbar-right {
+    font-size: 16px;
+    margin-left: 50px; }
+  }
+
+
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+    .logo {
+      height: 26px;
+      width: auto !important;
+      margin-left: 0px; }
+    .nabvar_header-style-right ul li a {
+      font-weight: normal;
+      -webkit-transition: all 300ms ease;
+      -moz-transition: all 300ms ease;
+      -o-transition: all 300ms ease;
+      -ms-transition: all 300ms ease;
+      transition: all 300ms ease; }
+    nav .navbar-brand {
+      height: 55px; }
+    .navbar-collapse, .navbar-default .navbar-form {
+      border-color: blue;
+      background: #222; 
+    }
+    .navbar-right ul{
+      font-size: 16px;
+      margin-left: 0px; 
+    }
+    .nabvar_header ul li {
+      margin-left: 5px; 
+    }
+    .nabvar_header-style-right-dropdown {
+      margin-left: 8px !important;
+    }
+ 
+  }
+
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+.background {
+  background: url("https://login.captio.net/css/public/Fons.jpg");
+  width: 100%;
+  height: 660px; }
+
+.background-login{
+   width: 100%;
+    background: linear-gradient(135deg,rgba(57,68,75,.85) 0,rgba(57,68,75,.85) 100%);
+}
+
+.hg1 {
+  height: 50px; }
+
+.mg1 {
+  margin: 10px; }
+
+.mg1-sides{
+  margin : 10px 0px 10px 0px;
+}
+
+.mg2 {
+  margin: 20px; 
+}
+.mg-left-3{
+    margin-left: 30px;
+}
+.mg4{
+  margin:40px;
+}
+.mg-top4{
+  margin-top:40px;
+}
+.mg5 {
+  margin: 50px; 
+}
+.mg-top5{
+margin-top:50px;
+}
+
+.mg6{
+margin:60px;
+}
+.mg-top-6{
+margin-top:60px;
+}
+.mg-top-7{
+margin-top:70px;
+}
+.mg-top-8{
+margin-top:80px;
+}
+.mg10 {
+  margin: 100px; }
+
+//login
+
+
+.form-signin-heading {
+  color: #2899c1;
+  margin: 0px 0px 30px 0; 
+}
+
+.input-group-mg {
+  margin-bottom: 20px; 
+}
+
+.br {
+  border: 1px solid #B0BEC5; 
+}
+
+.form-control {
+      height: 40px !important;
+      max-width: 350px;
+      padding-left: 50px;
+      border-radius : 2px;
+      border: 0px;
+}
+
+.input-icon {
+  position: absolute;
+  width: 24;
+  height: 24px;
+  margin-top: 8px;
+  margin-left: 10px; 
+  color : #AFAFAF !important;
+}
+
+.btn-login{
+  height: 40px!important;
+  max-width: 350px;
+    font-weight: 600;    
+}
+.input-group-mg {
+    margin-bottom: 30px;
+}
+.col-xs-offset-2 {
+    margin-left: 23.44445%;
+}
